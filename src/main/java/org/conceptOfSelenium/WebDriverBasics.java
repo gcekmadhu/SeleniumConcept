@@ -17,6 +17,7 @@ public class WebDriverBasics {
             System.out.println("Wrong title");
         }
         System.out.println("Current URL:--"+driver.getCurrentUrl());
-        driver.quit();
+        driver.close();
+        driver.getPageSource();
     }
 }
